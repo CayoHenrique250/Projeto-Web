@@ -318,7 +318,7 @@ li a:hover {
     height: 90px;
     position: fixed;
     border-radius: 100%;
-
+    z-index: 1;
     cursor: pointer;
 }
 
@@ -329,4 +329,5 @@ li a:hover {
     width: 3%;
     filter: invert(100%);
     cursor: pointer;
+    z-index: 1;
 }
