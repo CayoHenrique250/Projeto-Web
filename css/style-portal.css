@@ -1,0 +1,122 @@
+body{
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+}
+
+
+a{
+    color: rgb(9, 10, 6);
+    text-decoration: none;
+    
+}
+
+.pweb img{
+    position: relative;
+    margin-top: -11%;
+    margin-right: 5%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 20px solid rgb(0, 187, 0);
+    display: block;
+    margin-left: auto;
+}
+
+.titulo{
+    margin-top: 4%;
+    background-color:rgb(185, 211, 203);
+    border-radius: 20px 20px 20px 20px;
+    width: 50%;
+}
+
+.titulo h1{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.img-title{
+    position: relative;
+    width: 18%;
+    margin-top: -8%;
+    margin-left: -2%;
+}
+
+.div-green{
+    margin-top: 5%;
+    background-color: rgb(60, 116, 64);
+    width: 80%;
+    height: 180px;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.duo{
+    background-color: rgb(4, 202, 80);
+}
+
+.link{
+    height: 40px;
+    width: 10%;
+    background-color: yellow;
+    display: block;
+    margin-top: -3%;
+    margin-left: auto;
+    margin-right: 20%;
+    border-radius: 50px 50px 50px 50px;
+    text-align: center;
+    font-size: 150%;
+}
+
+.link h4{
+    margin-top: -15%;
+    font-size: 90%;
+}
+
+.site{
+    height: 30%;
+    width: 30%;
+    display: flex;
+    margin-left: 80%;
+    margin-top: -12%;
+}
+
+.site2{
+    height: 25%;
+    width: 25%;
+    display: flex;
+    margin-left: 83%;
+    margin-top: -8%;
+}
+
+.site3{
+    height: 30%;
+    width: 20%;
+    display: flex;
+    margin-left: 83%;
+    margin-top: -7%;
+}
+
+.tre{
+    background-color: rgb(60, 116, 64);
+
+}
+
+
+.div-green h2{
+    padding: 1%;
+}
+
+.duo h2{
+    padding: 1%;
+}
+
+.tre h2{
+    padding: 1%;
+}
+
+.texto{
+    margin-right: 35%;
+    margin-left: 3%;
+    font-size: 120%;
+}
