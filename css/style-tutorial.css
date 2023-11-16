@@ -1,0 +1,154 @@
+.container-tutorial {
+    background-color: #cbf8c2;
+    height: 200px;
+}
+
+.dark .container-tutorial {
+    background-color: #4b8353;
+}
+
+.container-tutorial h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(#3dce8a, #138153, #32da7d);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 5%;
+    margin-left: 4%;
+    font-size: 250%;
+}
+
+.dark .container-tutorial h1 {
+    background-image: linear-gradient(#9ddf94, #5fdf69, #ffffff);
+
+}
+
+.logo-tutorial {
+    display: block;
+    margin-left: 70%;
+    width: 19%;
+    margin-top: -6%;
+}
+
+.container-tutorial:hover {
+    background-color: #cbffc6;
+}
+
+.dark .container-tutorial:hover {
+    background-color: #0d8117;
+}
+
+.container-tutorial:hover+.logo-tutorial {
+    scale: 1.2;
+    transition: all 0.2s linear;
+}
+
+.logo-tutorial:hover {
+    scale: 1.2;
+    transition: all 0.2s linear;
+}
+
+h2 {
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-left: 5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #24a154;
+}
+
+.dark h2 {
+    color: #abebb4;
+}
+
+.video-container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.video-container h4 {
+    text-align: right;
+    color: #c2c1c1;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    border: 2px solid #a8d6a7;
+    border-radius: 10px;
+}
+
+
+
+.texto {
+    text-indent: 1%;
+    padding-right: 5%;
+    padding-left: 5%;
+    font-size: 130%;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+
+.texto h3 {
+    font-size: 100%;
+    color: darkgreen;
+    margin-bottom: 2%;
+    margin-top: 3%;
+}
+
+.dark .texto h3 {
+    color: #a8d6a7;
+}
+
+.texto ul {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    list-style: none;
+}
+
+.plantinha li::before {
+    content: "🌱";
+    margin-right: 10px;
+}
+
+.texto ol li {
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-left: 2%;
+}
+
+.dark .texto li{
+    color: #c2c1c1;
+}
+
+
+.img_text {
+    width: 35%;
+    display: block;
+    margin-top: 7%;
+    margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img_text2 {
+    width: 25%;
+    margin-right: 5%;
+}
+
+.img_text22 {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-right: 5%;
+}
+
+.img_text3 {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+hr{
+    opacity: 0;
+}
