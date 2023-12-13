@@ -1,15 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700;800&display=swap');
 
-.required-fields {
-    position: absolute;
-    right: 15px;
-    top: 160px;
-    font-size: 75%;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 100;
-}
-
 .title {
     margin-top: 30px;
     margin-left: 60px;
@@ -27,6 +18,21 @@
 }
 
 .inputText {
+    position: relative;
+    box-sizing: border-box;
+    width: 140px;
+    height: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+    color: black;
+    background-color: rgb(144, 238, 144);
+    border-radius: 10% / 50%;
+    margin-bottom: 10px;
+}
+
+.inputTextMessage {
     position: relative;
     box-sizing: border-box;
     width: 140px;
@@ -62,6 +68,17 @@
     padding-left: 10px;
 }
 
+.inputImg{
+    position: absolute;
+    visibility: hidden;
+    right: 2px;
+    bottom: 2px;
+}
+
+.dautonic .inputImg{
+    visibility: inherit;
+}
+
 .coluna-50 {
     width: 50%;
 }
@@ -82,7 +99,7 @@
 }
 
 .send {
-    background-color: rgb(144, 238, 144);;
+    background-color: rgb(144, 238, 144);
     font-family: 'Open Sans', sans-serif;
     font-weight: 100;
     font-size: 25px;
@@ -91,3 +108,70 @@
     padding-right: 15px;
 }
 
+@media (max-width: 420px) {
+
+    .title {
+        font-size: 50%;
+        position: relative;
+        right: 12%;
+    }
+
+    .inputText {
+        padding-top: 3px;
+        font-size: 65%;
+        width: 70px;
+        height: 20px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .inputTextMessage {
+        padding-top: 2px;
+        padding-right: 6px;
+        font-size: 60%;
+        width: 70px;
+        height: 18px;
+        left: 100%;
+    }
+
+    .input {
+        width: 150px;
+        height: 30px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        font-size: 10px;
+    }
+
+    .inputMessage {
+        left: 100%;
+        width: 175px;
+        height: 200px;
+        padding-left: 5px;
+        font-size: 10px;
+    }
+
+    .send {
+        font-size: 10px;
+        position: inherit;
+        right: 100%;
+    }
+
+    .coluna-50 {
+        width: 0%;
+    }
+    
+    .coluna1 {
+        position: relative;
+        right: 20%;
+    }
+    
+    .coluna2 {
+        position: relative;
+        right: 15%;
+    }
+
+    .inputImg{
+        height: 8px;
+    }
+
+}
