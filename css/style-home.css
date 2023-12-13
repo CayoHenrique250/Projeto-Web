@@ -69,3 +69,574 @@ hr{
     margin-top: 1%;
     margin-bottom: 1%;
 }
+
+.logoDalt{
+    margin-left: 97%;
+    top: 8%;
+    height: 5%;
+    position: absolute;
+    visibility: hidden;
+}
+
+.dautonic .logoDalt{
+    visibility: inherit;
+    
+}
+
+.tituloDalt{
+    margin-left: 98%;
+    top: 70%;
+    height: 29%;
+    position: absolute;
+    visibility: hidden;
+}
+
+.dautonic .tituloDalt{
+    visibility: inherit;
+    
+}
+
+.titulo2Dalt{
+    margin-left: -1%;
+    top: 457%;
+    height: 3%;
+    position: absolute;
+    visibility: hidden;
+}
+
+.dautonic .titulo2Dalt{
+    visibility: inherit;
+    
+}
+
+.backApp{
+    margin-left: 34%;
+    top: 483%;
+    height: 3%;
+    position: absolute; 
+    visibility: hidden;
+}
+
+.dautonic .backApp{
+    visibility: inherit;
+    
+}
+
+.backApp1{
+    margin-left: 57%;
+    top: 510%;
+    height: 3%;
+    position: absolute; 
+    visibility: hidden;
+}
+
+.dautonic .backApp1{
+    visibility: inherit;
+    
+}
+
+.citacaoDalt{
+    margin-left: 0%;
+    top: 122%;
+    height: 2%;
+    position: absolute;
+    visibility: hidden;
+}
+
+.dautonic .citacaoDalt{
+    visibility: inherit;
+    
+}
+
+.rDalt{
+    margin-left: -1%;
+    top: 140%;
+    height: 2%;
+    position: absolute;  
+    visibility: hidden;
+}
+
+.dautonic .rDalt{
+    visibility: inherit;
+    
+}
+
+.p1{
+    margin-left: -2%;
+    top: 154%;
+    height: 3%;
+    position: absolute;   
+    visibility: hidden;
+}
+
+.dautonic .p2{
+    visibility: inherit;
+    
+}
+
+.dautonic .p1{
+    visibility: inherit;
+    
+}
+
+.p2{
+    margin-left: -2%;
+    top: 315%;
+    height: 3%;
+    position: absolute;  
+    visibility: hidden;  
+}
+
+ .lixeirasDalt{
+    margin-left: -1%;
+    top: 300%;
+    height: 3%;
+    position: absolute;    
+    visibility: hidden;
+}
+
+.dautonic .lixeirasDalt{
+    visibility: inherit;
+    
+}
+
+.backLixDalt{
+    margin-left: 98%;
+    top: 291%;
+    height: 3%;
+    position: absolute;    
+    visibility: hidden;
+}
+
+.dautonic .backLixDalt{
+    visibility: inherit;
+    
+}
+
+.redDalt{
+    margin-left: 19%;
+    top: 413%;
+    height: 3%;
+    position: absolute;  
+    visibility: hidden;
+}
+
+.dautonic .redDalt{
+    visibility: inherit;
+    
+}
+
+.dautonic .red1Dalt{
+    visibility: inherit;
+    
+}
+
+.dautonic .red2Dalt{
+    visibility: inherit;
+    
+}
+
+
+
+.red1Dalt{
+    margin-left: 55%;
+    top: 385%;
+    height: 3%;
+    position: absolute;  
+    visibility: hidden;
+}
+
+.red2Dalt{
+    margin-left: 46%;
+    top: 386%;
+    height: 3%;
+    position: absolute;  
+    visibility: hidden;
+}
+
+.azul1Dalt{
+    margin-left: 38%;
+    top: 386%;
+    height: 3%;
+    position: absolute;  
+    visibility: hidden; 
+}
+
+.dautonic .azul1Dalt{
+    visibility: inherit;
+    
+}
+
+.dautonic .azulDalt{
+    visibility: inherit;
+    
+}
+
+.azulDalt{
+    margin-left: 27%;
+    top: 413%;
+    height: 3%;
+    position: absolute;  
+    visibility: hidden;
+}
+
+.verdDalt{
+    margin-left: 36%;
+    top: 413%;
+    height: 3%;
+    position: absolute;  
+    visibility: hidden;
+}
+
+.dautonic .verdDalt{
+    visibility: inherit;
+    
+}
+.verd1Dalt{
+    margin-left: 20%;
+    top: 383%;
+    height: 3%;
+    position: absolute;  
+    visibility: hidden;
+}
+
+.dautonic .verd1Dalt{
+    visibility: inherit;
+    
+}
+
+.amarDalt{
+    margin-left: 53%;
+    top: 413%;
+    height: 3%;
+    position: absolute;  
+    visibility: hidden;
+}
+
+.dautonic .amarDalt{
+    visibility: inherit;
+    
+}
+
+.backGif{
+    margin-left: 28%;
+    top: 254%;
+    height: 3%;
+    position: absolute;    
+    visibility: hidden;
+}
+
+.dautonic .backGif{
+    visibility: inherit;
+    
+}
+
+.backGif2{
+    margin-left: 45%;
+    top: 247%;
+    height: 3%;
+    position: absolute;   
+    visibility: hidden; 
+}
+
+.dautonic .backGif2{
+    visibility: inherit;
+    
+}
+
+.backGif3{
+    margin-left: 50%;
+    top: 248%;
+    height: 3%;
+    position: absolute;    
+    visibility: hidden;
+}
+
+.dautonic .backGif3{
+    visibility: inherit;
+    
+}
+
+@media (max-width:  420px) {
+    .back_index {
+        background-position: top;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 270px;
+        background-size: cover;
+        display: inline-block;
+        position: relative;
+        z-index: 0;
+    }
+    
+    .titulo_menu{
+        position: absolute;
+        top: 80px;
+        right: 25px;
+        font-size: 27px;
+        color: #1c3509;
+      }
+      
+    .titulo_menu2{
+        position: absolute;
+        top: 120px;
+        right: 25px;
+        font-size: 27px;
+        color: #1c3509;
+    }
+    
+    .citacao {
+        position: relative;
+        right: 2%;
+        margin-top: 3%;
+        text-align: center;
+        font-size: 60%;
+        color: green;
+        font-style: italic;
+    }
+    
+    .texto {
+        text-indent: 4%;
+        position: relative;
+        right: 2%;
+        padding-right: -100%;
+        padding-left: -80%;
+        padding-top: -100%;
+        font-size: 50%;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        text-align: justify;
+    }
+    
+    .titulo {
+        position: relative;
+        right: 2%;
+        text-align: center;
+        color: green;
+        font-size: 100%;
+        font-family: "Arial Narrow Bold", sans-serif;
+    }
+    
+    .img_text {
+        margin-top: 5%;
+        width: 50vm;
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+    
+    hr{
+        width: 50%;
+        display: block;
+        margin-left: -50%;
+        margin-right: auto;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+    
+    
+    .logoDalt{
+        margin-left: 97%;
+        top: 8%;
+        height: 5%;
+        position: fixed;
+        visibility: hidden;
+    }
+    
+    .tituloDalt{
+        margin-left: 98%;
+        top: 70%;
+        height: 29%;
+        position: absolute;
+        position: fixed;
+        visibility: hidden;
+    }
+    
+    .titulo2Dalt{
+        margin-left: -1%;
+        top: 457%;
+        height: 3%;
+        position: absolute;
+        position: fixed;
+        visibility: hidden;
+    }
+    
+    .backApp{
+        margin-left: 38%;
+        top: 20%;
+        height: 3%;
+        position: absolute; 
+        position: fixed;
+        visibility: hidden;
+    }
+    
+    .backApp1{
+        margin-left: 52%;
+        top: 62%;
+        height: 3%;
+        position: absolute; 
+        position: fixed;
+        visibility: hidden;
+    }
+    
+    .citacaoDalt{
+        margin-left: 10%;
+        top: 200px;
+        height: 2%;
+        position: absolute;
+        position: fixed;
+        visibility: hidden;
+    }
+    
+    .rDalt{
+        margin-left: -1%;
+        top: 4%;
+        right: auto;
+        width: -5%;
+        background-size: cover;
+        display: inline-block;
+        position: absolute;  
+        height: auto;
+        position: fixed;
+        visibility: hidden;
+    }
+    
+    .p1{
+        margin-left: -2%;
+        top: 1400%;
+        height: auto;
+        position: relative; 
+        position: fixed;
+        visibility: hidden;  
+    }
+    
+    .p2{
+        margin-left: -2%;
+        top: 315%;
+        height: 3%;
+        position: relative; 
+        position: fixed;
+        visibility: hidden;   
+    }
+    
+    .lixeirasDalt{
+        margin-left: -1%;
+        top: 300%;
+        height: 3%;
+        position: relative;    
+        position: fixed;
+        visibility: hidden;
+    }
+    
+    .backLixDalt{
+        margin-left: 98%;
+        top: 291%;
+        height: 3%;
+        position: relative;    
+        position: fixed;
+        visibility: hidden;
+    }
+    
+    .redDalt{
+        margin-left: 19%;
+        top: 413%;
+        height: 3%;
+        position: relative;  
+        position: fixed;
+        visibility: hidden;
+    }
+    
+    .red1Dalt{
+        margin-left: 55%;
+        top: 385%;
+        height: 3%;
+        position: relative;  
+        position: fixed;
+        visibility: hidden;
+    }
+    
+    .red2Dalt{
+        margin-left: 46%;
+        top: 386%;
+        height: 3%;
+        position: relative; 
+        position: fixed;
+        visibility: hidden; 
+    }
+    
+    .azul1Dalt{
+        margin-left: 38%;
+        top: 386%;
+        height: 3%;
+        position: relative;   
+        position: fixed;
+        visibility: hidden;
+    }
+    
+    .azulDalt{
+        margin-left: 27%;
+        top: 413%;
+        height: 3%;
+        position: relative;  
+        position: fixed;
+        visibility: hidden;
+    }
+    
+    .verdDalt{
+        margin-left: 36%;
+        top: 413%;
+        height: 3%;
+        position: relative;  
+        position: fixed;
+        visibility: hidden;
+    }
+    
+    .verd1Dalt{
+        margin-left: 20%;
+        top: 383%;
+        height: 3%;
+        position: relative;  
+        position: fixed;
+        visibility: hidden;
+    }
+    
+    .amarDalt{
+        margin-left: 53%;
+        top: 413%;
+        height: 3%;
+        position: relative;  
+        position: fixed;
+        visibility: hidden;
+    }
+    
+    .backGif{
+        margin-left: 28%;
+        top: 254%;
+        height: 3%;
+        position: relative;    
+        position: fixed;
+        visibility: hidden;
+    }
+    
+    .backGif2{
+        margin-left: 45%;
+        top: 247%;
+        height: 3%;
+        position: relative;    
+        position: fixed;
+        visibility: hidden;
+    }
+    
+    .backGif3{
+        margin-left: 50%;
+        top: 248%;
+        height: 3%;
+        position: relative;   
+        position: fixed;
+        visibility: hidden; 
+    } 
+}
