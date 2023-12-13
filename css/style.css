@@ -174,17 +174,6 @@ li a:hover {
     color: #1c3509;
 }
 
-.simbolo1 {
-    position: absolute;
-    width: 5%;
-    margin-top: 10%;
-    opacity: 0;
-}
-
-.dautonic .simbolo1 {
-    opacity: 100%;
-}
-
 .topo {
     position: fixed;
     bottom: 15%;
@@ -330,4 +319,144 @@ li a:hover {
     filter: invert(100%);
     cursor: pointer;
     z-index: 1;
+}
+
+/* For phone */
+
+@media (max-width: 420px) {
+    
+nav {
+    height: 55px;
+}
+
+.logo {
+    margin-left: 1%;
+    top: 1%;
+    height: 5%;
+}
+
+nav ul {
+    margin-right: 4%;
+    margin-top: 3%;
+    margin-left: 2%;
+}
+
+nav ul li {
+    line-height: 5px;
+}
+
+nav ul li a {
+    font-size: 67%;
+    padding: 1px 6px;
+    border-radius: 20px;
+}
+
+.footer_left {
+    margin-left: 0;
+}
+
+.footer-col {
+    width: 40%;
+    margin-bottom: 2%;
+}
+
+
+.logo-footer-div {
+    margin-left: 2%;
+    margin-bottom: 2%;
+    margin-top: -5%;
+}
+
+.logo-footer {
+
+    width: 50%;
+    margin-left: 7%;
+    margin-bottom: 15%;
+
+}
+
+.copyright {
+    font-size: 70%;
+    margin-top: -5%;
+    margin-right: -120%;
+}
+
+
+.titulo-footer {
+    font-size: 70%;
+}
+
+.links-footer a {
+    font-size: 55%;
+}
+
+
+.footer {
+    margin-top: 3%;
+}
+
+
+.row {
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.topo {
+    bottom: 15%;
+    right: 12%;
+    height: 6.5%;
+    width: 6.5%;
+}
+
+.barra-ferramentas{
+    margin-top: 18%;
+    margin-left: -5.7%;
+    width: 13%;
+    height: 65px;
+}
+
+.down{
+    margin-top: 23%;
+    width: 5%;
+}
+
+#toolbar {
+    margin-top: 15.7%;
+    width: 60%;
+    height: 91px;
+}
+
+.ball-green{
+    margin-left: 56%;
+    width: 8%;
+    height: 91px;
+
+}
+
+
+.mm {
+    height: 50px;
+    width: 50px;
+    margin-top: 17px;
+}
+
+.mm img{
+    width: 80%;
+    margin-top: 13%;
+}
+
+.mais {
+    margin-left: 62%;
+}
+
+.text h1 {
+    text-align: center;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.menos {
+    margin-left: 83.5%;
+}
+
 }

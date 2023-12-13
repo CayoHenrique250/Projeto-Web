@@ -1,0 +1,121 @@
+.container-tutoriais {
+    background-color: #cbf8c2;
+    height: 200px;
+}
+
+.dark .container-tutoriais {
+    background-color: #4b8353;
+}
+
+.container-tutoriais h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(#3dce8a, #138153, #32da7d);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 5%;
+    margin-left: 4%;
+    font-size: 250%;
+}
+
+.dark .container-tutoriais h1 {
+    background-image: linear-gradient(#9ddf94, #5fdf69, #ffffff);
+
+}
+
+.logo-tutoriais {
+    display: block;
+    margin-left: 70%;
+    width: 15%;
+    margin-top: -9%;
+}
+
+.container-tutoriais:hover {
+    background-color: #cbffc6;
+}
+
+.dark .container-tutoriais:hover {
+    background-color: #0d8117;
+}
+
+.container-tutoriais:hover+.logo-tutoriais {
+    scale: 1.2;
+    transition: all 0.2s linear;
+}
+
+.logo-tutoriais:hover {
+    scale: 1.2;
+    transition: all 0.2s linear;
+}
+
+
+h2 {
+    margin-top: 3%;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #24a154;
+}
+
+.dark h2 {
+    color: #abebb4;
+}
+
+hr {
+    opacity: 0;
+}
+
+.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    margin-left: 20px;
+    margin-top: 6%;
+    width: 30%;
+    margin-bottom: auto;
+}
+
+.gallery:hover {
+    border: 1px solid #777;
+}
+
+.gallery img {
+    width: 100%;
+}
+
+.gallery a {
+    text-decoration: none;
+}
+
+.dark .gallery {
+    background-color: #bafcbe;
+    border: 1px solid #bff8bd;
+}
+
+.dark .gallery:hover {
+    background-color: #88df8e;
+    border: 1px solid #11df0a;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+    color: black;
+    font-family: system-ui, -apple-system, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 140%;
+    font-weight: bold
+}
+
+.descr {
+    padding: 15px;
+    text-align: center;
+    color: black;
+    font-family: system-ui, -apple-system, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 140%;
+    font-weight: bold
+}
+
+.linha {
+    margin-bottom: 5%;
+    margin-top: 100%;
+    opacity: 0;
+}
