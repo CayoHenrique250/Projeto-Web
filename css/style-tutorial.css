@@ -156,10 +156,6 @@ hr{
 
 @media (max-width: 420px) {
 
-    body{
-        background-color: red;
-    }
-
     .container-tutorial {
         height: 150px;
     }
